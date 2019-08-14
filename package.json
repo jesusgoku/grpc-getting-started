@@ -1,0 +1,20 @@
+{
+  "name": "gprc-getting-started",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm -r dotenv/config src/server",
+    "start:dev": "nodemon -r esm -r dotenv/config src/server"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "esm": "^3.2.25",
+    "grpc": "^1.22.2",
+    "mongoose": "^5.6.9",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
